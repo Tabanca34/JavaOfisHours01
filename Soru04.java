@@ -9,14 +9,18 @@ public class Soru04 {
 		//	Kullanicidan yasini alin ve eger kullanici yasini 0 veya daha az bir yas girerse
 		// kullaniciya musade etmeyin(Exception throw edin)
 		Scanner scan=new Scanner(System.in);
-		System.out.println("Lütfen yaþýnýzý giriniz");
+		System.out.println("LÃ¼tfen yaÅŸÄ±nÄ±zÄ± giriniz");
 		int yas =scan.nextInt();
 		
 		if(yas<=0) {
 			try {
 			throw new IllegalAccessException();
 		}catch(Exception e) {
-			System.out.println("Yasýnýz 0 dan kücük olmaz");
+			System.out.println("YasÄ±nÄ±z 0 dan kÃ¼cÃ¼k olmaz");
+				
+				
+				system.out.println("Hello turkey 17. satÄ±r");
+					
 		}
 
 	}

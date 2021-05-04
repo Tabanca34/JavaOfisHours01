@@ -19,7 +19,7 @@ public class Soru04 {
 			System.out.println("Yasınız 0 dan kücük olmaz");
 				
 				
-				system.out.println("Hello turkey 17. satır");
+				
 					
 		}
 
